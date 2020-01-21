@@ -17,7 +17,8 @@ export const viewStyleDefault = {
     right: 0,
     bottom: 0,
     overflow: 'scroll',
-    WebkitOverflowScrolling: 'touch'
+    WebkitOverflowScrolling: 'touch',
+    zIndex: 0,
 };
 
 // Overrides viewStyleDefault properties
@@ -37,11 +38,13 @@ export const viewStyleUniversalInitial = {
 
 export const trackHorizontalStyleDefault = {
     position: 'absolute',
+    zIndex: 1,
     height: 6
 };
 
 export const trackVerticalStyleDefault = {
     position: 'absolute',
+    zIndex: 1,
     width: 6
 };
 
