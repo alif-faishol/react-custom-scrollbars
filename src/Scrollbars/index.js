@@ -571,6 +571,11 @@ export default class Scrollbars extends Component {
 
         return createElement(tagName, { ...props, style: containerStyle, ref: (ref) => { this.container = ref; } }, [
             cloneElement(
+                renderView({ style: viewStyle }),
+                { key: 'view', ref: (ref) => { this.view = ref; } },
+                children
+            ),
+            cloneElement(
                 renderTrackHorizontal({ style: trackHorizontalStyle }),
                 { key: 'trackHorizontal', ref: (ref) => { this.trackHorizontal = ref; } },
                 cloneElement(
@@ -585,11 +590,6 @@ export default class Scrollbars extends Component {
                     renderThumbVertical({ style: thumbVerticalStyleDefault }),
                     { ref: (ref) => { this.thumbVertical = ref; } }
                 )
-            ),
-            cloneElement(
-                renderView({ style: viewStyle }),
-                { key: 'view', ref: (ref) => { this.view = ref; } },
-                children
             )
         ]);
     }
