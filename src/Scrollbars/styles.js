@@ -18,6 +18,7 @@ export const viewStyleDefault = {
     bottom: 0,
     overflow: 'scroll',
     WebkitOverflowScrolling: 'touch',
+    zIndex: 1
 };
 
 // Overrides viewStyleDefault properties

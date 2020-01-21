@@ -1291,7 +1291,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    right: 0,
 	    bottom: 0,
 	    overflow: 'scroll',
-	    WebkitOverflowScrolling: 'touch'
+	    WebkitOverflowScrolling: 'touch',
+	    zIndex: 1
 	};
 
 	// Overrides viewStyleDefault properties
