@@ -1201,14 +1201,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	                    _this7.container = _ref3;
 	                } }), [(0, _react.cloneElement)(renderView({ style: viewStyle }), { key: 'view', ref: function ref(_ref4) {
 	                    _this7.view = _ref4;
-	                } }, children), (0, _react.cloneElement)(renderTrackHorizontal({ style: trackHorizontalStyle }), { key: 'trackHorizontal', ref: function ref(_ref5) {
-	                    _this7.trackHorizontal = _ref5;
-	                } }, (0, _react.cloneElement)(renderThumbHorizontal({ style: _styles.thumbHorizontalStyleDefault }), { ref: function ref(_ref6) {
-	                    _this7.thumbHorizontal = _ref6;
-	                } })), (0, _react.cloneElement)(renderTrackVertical({ style: trackVerticalStyle }), { key: 'trackVertical', ref: function ref(_ref7) {
-	                    _this7.trackVertical = _ref7;
-	                } }, (0, _react.cloneElement)(renderThumbVertical({ style: _styles.thumbVerticalStyleDefault }), { ref: function ref(_ref8) {
-	                    _this7.thumbVertical = _ref8;
+	                } }, children), (0, _react.cloneElement)(renderTrackVertical({ style: trackVerticalStyle }), { key: 'trackVertical', ref: function ref(_ref5) {
+	                    _this7.trackVertical = _ref5;
+	                } }, (0, _react.cloneElement)(renderThumbVertical({ style: _styles.thumbVerticalStyleDefault }), { ref: function ref(_ref6) {
+	                    _this7.thumbVertical = _ref6;
+	                } })), (0, _react.cloneElement)(renderTrackHorizontal({ style: trackHorizontalStyle }), { key: 'trackHorizontal', ref: function ref(_ref7) {
+	                    _this7.trackHorizontal = _ref7;
+	                } }, (0, _react.cloneElement)(renderThumbHorizontal({ style: _styles.thumbHorizontalStyleDefault }), { ref: function ref(_ref8) {
+	                    _this7.thumbHorizontal = _ref8;
 	                } }))]);
 	        }
 	    }]);
