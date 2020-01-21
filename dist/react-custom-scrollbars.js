@@ -1291,8 +1291,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    right: 0,
 	    bottom: 0,
 	    overflow: 'scroll',
-	    WebkitOverflowScrolling: 'touch',
-	    zIndex: 0
+	    WebkitOverflowScrolling: 'touch'
 	};
 
 	// Overrides viewStyleDefault properties
@@ -1312,13 +1311,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var trackHorizontalStyleDefault = exports.trackHorizontalStyleDefault = {
 	    position: 'absolute',
-	    zIndex: 1,
 	    height: 6
 	};
 
 	var trackVerticalStyleDefault = exports.trackVerticalStyleDefault = {
 	    position: 'absolute',
-	    zIndex: 1,
 	    width: 6
 	};
 
